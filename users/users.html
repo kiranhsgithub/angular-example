@@ -1,0 +1,6 @@
+<div class="user">
+    <div ng-repeat="user in vm.users | filter: vm.filterTerm">
+        <h1>{{::user.name}} </h1>
+        <p>{{::user.bio}} </p>
+    </div>
+</div>

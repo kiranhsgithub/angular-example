@@ -1,0 +1,28 @@
+<div class="compose">
+    <h1>Create a Post</h1>
+    <form name="compose">
+        <div>
+            <label>Heading</label><br>
+            <input name="heading" type="text" data-ng-model="vm.post.heading" required placeholder="Heading goes here">
+            <div data-ng-if="!compose.heading.$valid">{{myForm.heading.$error}}</div>
+        </div>
+        <div>
+            <label>Content</label><br>
+            <textarea rows="4" cols="50" name="content" data-ng-model="vm.post.content" required
+                      placeholder="Content Goes Here"></textarea>
+            <div data-ng-if="!compose.heading.$valid">{{myForm.content.$error}}</div>
+        </div>
+        <div class="buttons">
+            <a href="#!posts">
+                <i class="fa fa-chevron-left"></i> Back
+            </a>
+            <div class="submit-container">
+                <input type="submit" class="btn btn-primary" data-ng-click="vm.createPost()"
+                   value="Post">
+            </div>
+            
+        </div>
+    </form>
+    
+    
+</div>

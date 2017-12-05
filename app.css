@@ -1,0 +1,80 @@
+.search{
+    padding-top: 5px;  
+    margin-left: 600px;
+    width: 300px;
+}
+
+.post, .user{
+    border: 1px solid #666666 ;
+    border-radius: 5px;
+    margin: 0 20px;
+    margin-top: 10px;
+    
+}
+.post, .user{
+    text-align: center;
+}
+
+h1 {
+    padding-top: 5px;
+    padding-left: 10px;
+    margin-top: 0;
+    border-bottom: 1px solid #666666;
+    background: #679DC9;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.actions {
+    margin: 10px 20px;
+    text-align: right;
+}
+
+.compose {
+    margin: 10px 20px;
+    max-width: 560px;
+}
+
+.compose form > div {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+textarea{
+    width: 500px;
+    height: 180px;
+}
+
+.compose{
+    border: 1px solid #666666 ;
+    border-radius: 5px;
+    margin: 0 20px;
+    margin-top: 10px;
+    
+}
+
+.compose .buttons {
+    padding: 10px;
+    height: 60px;
+}
+
+a {
+    width: 200px;
+}
+
+.submit-container {
+    text-align: right;
+    float: right;
+}
+
+.submit-container > input {    
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: 36px;
+}
+
+.compose h1 {
+    padding: 10px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,7 @@
+<div class="actions">
+    <a href="#!compose">Compose <i class="fa fa-pencil"></i></a>
+</div>
+
+<div ng-repeat="post in vm.posts | filter: vm.filterTerm">
+    <post item="post"></post>
+</div>

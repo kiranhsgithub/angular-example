@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/app.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#!users">Users</a></li>
+            <search></search>
+        </ul>
+    </nav>
+    <div ng-view></div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.min.js"></script>
+    <script src="app.js"></script>
+    <script src="services/posts-service.js"></script>
+    <script src="services/users-service.js"></script>
+    <script src="search/search-controller.js"></script>
+    <script src="search/search-component.js"></script>
+    <script src="compose/compose-controller.js"></script>
+    <script src="posts/post/post-controller.js"></script>
+    <script src="posts/post/post-component.js"></script>
+    <script src="posts/posts-controller.js"></script>
+    <script src="users/users-controller.js"></script>
+</body>
+</html>
